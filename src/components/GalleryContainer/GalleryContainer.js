@@ -4,10 +4,10 @@ import ImageBox from './ImageBox/ImageBox';
 const GalleryContainer = (props) => {
   return (
     <div className={classes.GalleryContainer}>
-      {props.dogsImageLinks.map(image => {
-            return <ImageBox key={image.id} 
+      {props.imageLinks.map(image => {
+            return <ImageBox key={image._id} 
             imageLink={image.imageUrl} 
-            imageId={image.id} 
+            imageId={image._id} 
             deleteImage={props.deleteImage}
             zoomImage={props.openMagnifier} />
         })}
