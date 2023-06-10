@@ -1,0 +1,17 @@
+.Modal {
+  height: 80vh;
+  width: 70vw;
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.ModalClear {
+  
+}
+
+.ModalFill {
+  background-color: white;
+}

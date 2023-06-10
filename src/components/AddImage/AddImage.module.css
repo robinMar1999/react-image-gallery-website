@@ -1,0 +1,35 @@
+.AddImage {
+  width: 80%;
+  margin: 16px auto;
+  padding: 32px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 8px;
+}
+
+.Form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.Input {
+  margin: 8px;
+}
+
+.Input input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: medium;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+.Input button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: medium;
+  border-radius: 8px;
+  border: 1px solid rgb(197, 197, 197);
+  cursor: pointer;
+}
